@@ -14,7 +14,7 @@ aimd(
 
 
 	thermostat(
-		temperature = 300 kelvin
+		temperature = 1000 kelvin
 	)
 	
 
