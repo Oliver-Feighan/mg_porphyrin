@@ -1,0 +1,25 @@
+aimd(
+	structure(
+		file = 'MgPhyr.xyz'
+	) 
+	
+
+	save_to_file = true
+
+	time_step = 0.5 fs 
+
+	n_steps = 10000
+
+	gfn_ff() 
+
+
+	thermostat(
+		temperature = 300 kelvin
+	)
+	
+
+	velocities(
+		temperature = 1500 kelvin 
+		sampling=thermal
+	)
+)
