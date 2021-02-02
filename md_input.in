@@ -8,6 +8,8 @@ aimd(
 
 	time_step = 0.5 fs 
 
+	output_steps = 10
+
 	n_steps = 10000
 
 	gfn_ff() 
