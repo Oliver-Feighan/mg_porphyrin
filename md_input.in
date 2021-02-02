@@ -14,12 +14,12 @@ aimd(
 
 
 	thermostat(
-		temperature = 1000 kelvin
+		temperature = 2000 kelvin
 	)
 	
 
 	velocities(
-		temperature = 1500 kelvin 
+		temperature = 2000 kelvin 
 		sampling=thermal
 	)
 )
